@@ -7,10 +7,12 @@ class URI {
         int input = int.Parse(Console.ReadLine());
         int count = 0;
 
-        for (int i = 0; i <= input; i++)
-        {
-            if(i%2 == 1)
-                System.Console.WriteLine(i);
+        while (count < 6){
+            if(input %2 == 1) {
+                Console.WriteLine(input);
+                count++;
+            }
+            input++;
         }
     }
 
