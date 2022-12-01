@@ -22,4 +22,9 @@ class URI {
         Console.WriteLine($"{outCount} out");
     }
 
+    static void calcMedia(float n1, float n2, float n3) {
+        float media = (n1 * 2 + n2 * 3 + n3 * 5) / 10;
+        Console.WriteLine($"{media:F1}");
+    }
+
 }

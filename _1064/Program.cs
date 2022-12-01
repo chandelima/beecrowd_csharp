@@ -4,7 +4,7 @@ class URI {
 
     static void Main(string[] args) { 
 
-        float[] inputs = new float[6];
+        float[] inputs = new float[5];
 
         inputs[0] = float.Parse(Console.ReadLine());
         inputs[1] = float.Parse(Console.ReadLine());
